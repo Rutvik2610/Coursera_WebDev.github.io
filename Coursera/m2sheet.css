@@ -10,20 +10,23 @@ h1{
 }
 @media (min-width: 992px){
   #p1, #p2, #p3{
-    width: 33.33%;
+    width: 30%;
+    box-sizing: border-box;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #p1, #p2{
-    width: 50%;
+    width: 45%;
+    box-sizing: border-box;
   }
   #p3{
-    width: 100%;
+    width: 93%;
+    box-sizing: border-box;
   }
 }
-@@media (max-width: 767px) {
+@media (max-width: 767px) {
   #p1, #p2, #p3{
-    width: 100%;
+    width: 90%;
   }
 
 }
@@ -52,9 +55,8 @@ h1{
   position: relative;
   background-color: Violet;
 }
-#head1{
+#head1, #head2, #head3{
   font-size: 24px;
-  background-color: Orange;
   width: 40%;
   text-align: center;
   color: white;
@@ -62,26 +64,13 @@ h1{
   top: 0;
   right: 0;
   border: 1px solid Black;
+}
+#head1{
+    background-color: Orange;
 }
 #head2{
-  font-size: 24px;
-  width: 40%;
-  text-align: center;
-  color: white;
   background-color: SlateBlue;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 1px solid Black;
 }
 #head3{
-  font-size: 24px;
-  color: white;
-  width: 40%;
-  text-align: center;
   background-color: Crimson;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 1px solid Black;
 }
