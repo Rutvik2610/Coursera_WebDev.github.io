@@ -1,0 +1,36 @@
+body{
+  background-color: DodgerBlue;
+  font-family: "Times New Roman";
+  color: #fff;
+  font-size: 16px;
+}
+#header-nav{
+  position: relative;
+  background-color: #ffce00;
+  border-radius: 0;
+  border: 0;
+  color: #61122f;
+}
+#content{
+  background-color: Tomato;
+}
+#content div{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+div #heading {
+  text-align: center;
+  font-size: 30px;
+}
+button.navbar-toggle{
+  border: 1px solid DodgerBlue;
+}
+ @media query(min-width:678px) {
+.navbar-toggle{
+  visibility: invisible;
+  position: absolute;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+}
+}
