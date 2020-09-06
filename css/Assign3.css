@@ -25,7 +25,7 @@ div #heading {
 button.navbar-toggle{
   border: 1px solid DodgerBlue;
 }
- @media query(min-width:678px) {
+/*  @media query(min-width:678px) {
 .navbar-toggle{
   visibility: invisible;
   position: absolute;
@@ -34,3 +34,4 @@ button.navbar-toggle{
   right: 20px;
 }
 }
+ */
