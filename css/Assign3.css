@@ -13,11 +13,15 @@ body{
 }
 .navbar-brand{
   position: absolute;
+  top: 0px;
+  left: 0px;
 }
 #content{
   background-color: Tomato;
 }
 #content div{
+  padding-left: 20px;
+  padding-right: 20px:
   margin-left: 20px;
   margin-right: 20px;
 } 
